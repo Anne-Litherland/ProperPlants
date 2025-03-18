@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgb(191, 193, 233);
+  color: rgb(60, 24, 2);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+@media (wideth >= 500px) {
+  main {
+    grid-template-columns: 1fr 30ch;
+  }
+}
+
+ul {
+  list-style: none;
+}
+button {
+  border-color: rgb(1, 61, 17);
+  background-color: rgb(1, 61, 17);
+  color: rgb(235, 240, 245);
+}
+
+button:hover {
+  background-color: rgb(103, 32, 4);
+}
